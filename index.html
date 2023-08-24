@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcun icon" href="logo.png">
+    <script src="heartStone.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HeartStone</title>
+</head>
+<body>
+    <div class="card-holder">
+        
+    </div>
+    <div class="container">
+        <div class="classControl">
+            <div class="buttonFive">
+                <label for="fiveCards">Получить 5 карточек:</label><br>
+                <input type="button" id="fiveCards" value="Нажмите для получения 5 карточек">
+            </div>
+            <div class="buttonOne">
+                <label for="oneCard">Получить карточку класса:</label> 
+                <select class="selectClass">
+                    <option value="1" selected="selected">Choose class</option>
+                    <option value="2">Druid</option>
+                    <option value="3">Hunter</option>
+                </select><br>
+                <input type="button" id="oneCard" class="buttonOneClick" value="Нажмите для получения карточки">
+            </div>
+            <div class="buttonDelete">
+                <label for="deleteOneCard">Удалить карточку:</label><br>
+                <input type="button" id="deleteOneCard" value="Нажмите для удаления карточки">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
